@@ -1,3 +1,8 @@
+mark {
+  background: yellow;
+  color: black;
+}
+
 ::selection {
   background: hotpink;
   color: black;

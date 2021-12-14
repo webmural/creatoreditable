@@ -1,6 +1,7 @@
 :root {
   font-family: sans-serif;
   font-size: calc(1em + 2vmin + 2vmax);
+  line-height: 1.5;
 }
 
 :any-link {
@@ -20,6 +21,20 @@
   margin: auto;
 }
 
-.pad {
-  padding: 1ex;
+figure {
+  margin: auto;
+  margin-block-end: 20vh;
+}
+
+figcaption {
+  margin-block-end: 30vh;
+}
+
+nav a {
+  display: table;
+}
+
+main {
+  padding: 1em;
+  min-height: 90vh;
 }

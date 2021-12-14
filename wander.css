@@ -1,10 +1,15 @@
+mark {
+  background: magenta;
+  color: black;
+}
+
 ::selection {
   background: indigo;
   color: pink;
 }
 
 :root {
-  background: silver;
+  background: gainsboro;
   color: #212;
 }
 
