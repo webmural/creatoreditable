@@ -1,25 +1,18 @@
 mark {
-  background: magenta;
-  color: black;
+  background: #ddd;
+  color: #300000;
 }
 
 ::selection {
-  background: indigo;
-  color: pink;
+  background: forestgreen;
+  color: black;
 }
 
 :root {
-  background: gainsboro;
-  color: #212;
+  background: coral;
+  color: #300000;
 }
 
 :any-link {
-  color: indigo;
-}
-
-@media (prefers-contrast: more) {
-  :root {
-    background: gainsboro;
-    color: #201;
-  }
+  color: #300000;
 }
