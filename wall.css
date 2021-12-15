@@ -9,16 +9,24 @@
 }
 
 :focus {
-  outline-style: dashed;
+  outline-style: groove;
   outline-width: thick;
+}
+
+.free {
+  margin: auto;
 }
 
 .bold {
   font-weight: bolder;
 }
 
-.free {
-  margin: auto;
+.wavy {
+  text-decoration-style: wavy;
+}
+
+main {
+  padding: 1em;
 }
 
 figure {
@@ -27,14 +35,7 @@ figure {
 }
 
 figcaption {
+  display: flex;
+  flex-wrap: wrap;
   margin-block-end: 30vh;
-}
-
-nav a {
-  display: table;
-}
-
-main {
-  padding: 1em;
-  min-height: 90vh;
 }
