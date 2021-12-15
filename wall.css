@@ -34,6 +34,11 @@ figure {
   margin-block-end: 20vh;
 }
 
+figure {
+  margin: auto;
+  margin-block-end: 20vh;
+}
+
 figcaption {
   display: flex;
   flex-wrap: wrap;
